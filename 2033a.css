@@ -1,0 +1,157 @@
+a:hover {
+  text-decoration: none;
+}
+.read-more {
+  text-decoration: none;
+  color: #dacb46;
+  font-style: italic;
+}
+.read-more:hover {
+  color: #ffdb35;
+}
+.type-2033 {
+  font-family: arial;
+}
+.type-2033 .content {
+  padding: 50px 0px;
+  text-align: center;
+  background-color: #fff;
+}
+.type-2033 .content .sec-header {
+  width: 100%;
+  padding: 0px 0px 40px 0px;
+}
+.type-2033 .content .sec-header p {
+  font-style: italic !important;
+  position: relative;
+  color: #00a685;
+}
+.type-2033 .content .sec-header span {
+  height: 10px;
+  width: 10px;
+  background-color: #aaa;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+.row {
+	margin-right : -15 px;
+	margin-left :- 15 px;
+	text-align : center;
+}
+.type-2033 .content .sec-header h2 {
+  margin-top: 0;
+}
+.type-2033 .content .sec-header .read-more {
+  text-decoration: none;
+  color: #dacb46;
+}
+.type-2033 .content .sec-header .read-more:hover {
+  color: #ffdb35;
+}
+.type-2033 .content .services .header {
+  position: relative;
+}
+.type-2033 .content .services .header .fa-desktop {
+  font-size: 170px;
+  line-height: 170px;
+  color: #ededed;
+  transition: all 0.3s ease-in-out;
+}
+.type-2033 .content .services .header .inner-icon {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: -30px 0px 0px 0px;
+  top: 40%;
+  font-size: 45px;
+  color: #00a685;
+}
+.type-2033 .content .services .text {
+  padding: 0px 20px;
+}
+.type-2033 .content .services .text a {
+  text-decoration: none;
+  color: #00a685;
+}
+.type-2033 .content .services .text h3 {
+  font: normal 20px arial;
+  line-height: 20px;
+  margin: 0px 0px 20px 0px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  color: #00a685;
+}
+.type-2033 .content .services .text h3:before {
+  content: "";
+  width: 50%;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background-color: #00a685;
+  bottom: -15px;
+  margin: auto;
+  transition: width 0.5s;
+  color: #00a685;
+}
+.type-2033 .content .services .text p {
+  font: normal 14px arial;
+  line-height: 20px;
+}
+.type-2033 .content .services:hover .text h3:before {
+  width: 100%;
+}
+.type-2033 .content .services:hover .fa-desktop{
+  color: #00a685;
+}
+@media (max-width: 767px) {
+  .type-2033 .sm-middle {
+    border-top: dashed 1px #cecece;
+    border-bottom: dashed 1px #cecece;
+    margin: 10px 0px;
+    padding: 10px 0px;
+  }
+  .type-2033 .services .header .fa-desktop {
+    font-size: 130px;
+    line-height: 150px;
+  }
+  .type-2033 .services .text h3 {
+    font-size: 13px;
+  }
+  .type-2033 .services .text .inner-icon {
+    font-size: 40px;
+    margin: -30px 0px 0px 0px;
+  }
+}
+@media (min-width: 992px) {
+  .type-2033 .sec-header h2 {
+    font: bold 44px arial;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .type-2033 .sec-header p {
+    font: 700 20px arial;
+    font-weight: normal;
+  }
+}
+@media (max-width: 992px) and (min-width: 480px) {
+  .type-2033 .content .sec-header h2 {
+    font: bold 32px arial;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+  .type-2033 .content .sec-header p {
+    font: normal 20px arial;
+  }
+}
+@media (max-width: 480px) {
+  .type-2033 .content .sec-header h2 {
+    font: bold 22px arial;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .type-2033 .content .sec-header p {
+    font: normal 16px arial;
+  }
+}
